@@ -1,0 +1,38 @@
+{
+  "name": "nodereact",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prd": "pkg -t win server.js"
+  },
+  "author": "Avanthika",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/cors": "^3.1.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "filereader": "^0.10.3",
+    "http": "0.0.0",
+    "koa": "^2.13.4",
+    "koa-body": "^4.2.0",
+    "koa-bodyparser": "^4.3.0",
+    "koa-easy-websocket": "^1.0.5",
+    "koa-easy-ws": "^1.3.1",
+    "koa-parser": "^1.0.8",
+    "koa-route": "^3.2.0",
+    "koa-router": "^10.1.1",
+    "koa-socket": "^4.4.0",
+    "koa-socket-2": "^2.0.0",
+    "koa-websocket": "^6.0.0",
+    "socket.io": "^2.4.1",
+    "websocket": "^1.0.28",
+    "ws": "^8.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
