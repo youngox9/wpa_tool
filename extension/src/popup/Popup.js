@@ -99,7 +99,7 @@ const Popup = () => {
 
   return (
     <Container>
-      <h2>WPA 行為模擬器</h2>
+      <h2>RPA 行為模擬器</h2>
       <h5>Socket Status: {connectionStatus}</h5>
       <Grid container spacing={2}>
         {

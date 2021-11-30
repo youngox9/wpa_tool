@@ -1,6 +1,6 @@
 {
   "manifest_version": 2,
-  "name": "WPA TOOL",
+  "name": "RPA TOOL",
   "description": "React, Chrome extension",
   "version": "0.0.1",
   "icons": {
@@ -30,7 +30,7 @@
   ],
   "browser_action": {
     "default_icon": "assets/icon-128.png",
-    "default_title": "WPA TOOL",
+    "default_title": "RPA TOOL",
     "default_popup": "popup.html"
   },
   "content_security_policy": "default-src *; style-src 'self' http://* 'unsafe-inline'; script-src 'self' http://* 'unsafe-inline' 'unsafe-eval'; connect-src *"
